@@ -59,40 +59,58 @@ router.get('/events', (req,res) => {
       "date": "2022-15-1"
     },
     {
-      "_id": "1",
+      "_id": "2",
       "name": "Angular",
-      "description": "Material",
+      "description": "Component",
       "date": "2022-15-1"
     },
     {
-      "_id": "1",
+      "_id": "3",
       "name": "Angular",
-      "description": "Material",
+      "description": "Services",
       "date": "2022-15-1"
     },
     {
-      "_id": "1",
+      "_id": "4",
       "name": "Angular",
-      "description": "Material",
+      "description": "Pipes",
       "date": "2022-15-1"
     },
     {
-      "_id": "1",
+      "_id": "5",
       "name": "Angular",
-      "description": "Material",
+      "description": "Routes",
       "date": "2022-15-1"
     },
     {
-      "_id": "1",
+      "_id": "6",
       "name": "Angular",
-      "description": "Material",
+      "description": "Binding",
+      "date": "2022-15-1"
+    },
+    {
+      "_id": "7",
+      "name": "Angular",
+      "description": "Directives",
+      "date": "2022-15-1"
+    },
+    {
+      "_id": "8",
+      "name": "Angular",
+      "description": "Authentication",
+      "date": "2022-15-1"
+    },
+    {
+      "_id": "9",
+      "name": "Angular",
+      "description": "Interaction",
       "date": "2022-15-1"
     }
   ]
   res.json(events)
 })
 
-router.get('/special', (req,res) => {
+router.get('/special-events', (req,res) => {
   let events = [
     {
       "_id": "1",
@@ -101,33 +119,51 @@ router.get('/special', (req,res) => {
       "date": "2022-15-1"
     },
     {
-      "_id": "1",
+      "_id": "2",
       "name": "Angular",
-      "description": "Material",
+      "description": "Component",
       "date": "2022-15-1"
     },
     {
-      "_id": "1",
+      "_id": "3",
       "name": "Angular",
-      "description": "Material",
+      "description": "Services",
       "date": "2022-15-1"
     },
     {
-      "_id": "1",
+      "_id": "4",
       "name": "Angular",
-      "description": "Material",
+      "description": "Pipes",
       "date": "2022-15-1"
     },
     {
-      "_id": "1",
+      "_id": "5",
       "name": "Angular",
-      "description": "Material",
+      "description": "Routes",
       "date": "2022-15-1"
     },
     {
-      "_id": "1",
+      "_id": "6",
       "name": "Angular",
-      "description": "Material",
+      "description": "Binding",
+      "date": "2022-15-1"
+    },
+    {
+      "_id": "7",
+      "name": "Angular",
+      "description": "Directives",
+      "date": "2022-15-1"
+    },
+    {
+      "_id": "8",
+      "name": "Angular",
+      "description": "Authentication",
+      "date": "2022-15-1"
+    },
+    {
+      "_id": "9",
+      "name": "Angular",
+      "description": "Interaction",
       "date": "2022-15-1"
     }
   ]
