@@ -78,55 +78,55 @@ router.get('/events', (req,res) => {
       "_id": "1",
       "name": "Angular",
       "description": "Material",
-      "date": "2022-15-1"
+      "date": "2022-05-1"
     },
     {
       "_id": "2",
       "name": "Angular",
       "description": "Component",
-      "date": "2022-15-1"
+      "date": "2022-05-1"
     },
     {
       "_id": "3",
       "name": "Angular",
       "description": "Services",
-      "date": "2022-15-1"
+      "date": "2022-05-1"
     },
     {
       "_id": "4",
       "name": "Angular",
       "description": "Pipes",
-      "date": "2022-15-1"
+      "date": "2022-05-1"
     },
     {
       "_id": "5",
       "name": "Angular",
       "description": "Routes",
-      "date": "2022-15-1"
+      "date": "2022-05-1"
     },
     {
       "_id": "6",
       "name": "Angular",
       "description": "Binding",
-      "date": "2022-15-1"
+      "date": "2022-05-1"
     },
     {
       "_id": "7",
       "name": "Angular",
       "description": "Directives",
-      "date": "2022-15-1"
+      "date": "2022-05-1"
     },
     {
       "_id": "8",
       "name": "Angular",
       "description": "Authentication",
-      "date": "2022-15-1"
+      "date": "2022-05-1"
     },
     {
       "_id": "9",
       "name": "Angular",
       "description": "Interaction",
-      "date": "2022-15-1"
+      "date": "2022-05-1"
     }
   ]
   res.json(events)
@@ -138,55 +138,55 @@ router.get('/special-events',verifyToken,(req,res) => {
       "_id": "1",
       "name": "Angular",
       "description": "Material",
-      "date": "2022-15-1"
+      "date": "2022-05-1"
     },
     {
       "_id": "2",
       "name": "Angular",
       "description": "Component",
-      "date": "2022-15-1"
+      "date": "2022-05-1"
     },
     {
       "_id": "3",
       "name": "Angular",
       "description": "Services",
-      "date": "2022-15-1"
+      "date": "2022-05-1"
     },
     {
       "_id": "4",
       "name": "Angular",
       "description": "Pipes",
-      "date": "2022-15-1"
+      "date": "2022-05-1"
     },
     {
       "_id": "5",
       "name": "Angular",
       "description": "Routes",
-      "date": "2022-15-1"
+      "date": "2022-05-1"
     },
     {
       "_id": "6",
       "name": "Angular",
       "description": "Binding",
-      "date": "2022-15-1"
+      "date": "2022-05-1"
     },
     {
       "_id": "7",
       "name": "Angular",
       "description": "Directives",
-      "date": "2022-15-1"
+      "date": "2022-05-1"
     },
     {
       "_id": "8",
       "name": "Angular",
       "description": "Authentication",
-      "date": "2022-15-1"
+      "date": "2022-05-1"
     },
     {
       "_id": "9",
       "name": "Angular",
       "description": "Interaction",
-      "date": "2022-15-1"
+      "date": "2022-05-1"
     }
   ]
   res.json(events)

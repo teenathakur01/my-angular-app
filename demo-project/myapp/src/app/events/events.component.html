@@ -1,5 +1,5 @@
 <div>
-    <h1 class="text-center">Welcome to the Events page</h1>
+    <h1 class="text-center">{{ 'Welcome to the Events page' | uppercase }}</h1>
 </div>
 <div class="row mt-5">
     <div class="col-md-4 mb-3" *ngFor="let event of events">
@@ -10,7 +10,7 @@
           <a href="#" class="btn btn-primary">Buy Course</a>
         </div>
         <div class="card-footer text-muted">
-          {{event.date}}
+          {{event.date | date}}
         </div>
       </div>
     </div>
