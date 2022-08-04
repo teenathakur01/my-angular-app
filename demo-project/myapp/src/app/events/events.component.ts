@@ -19,4 +19,8 @@ export class EventsComponent implements OnInit {
     )
   }
 
+  message(){
+    alert("Course is added to cart!");
+  }
+
 }

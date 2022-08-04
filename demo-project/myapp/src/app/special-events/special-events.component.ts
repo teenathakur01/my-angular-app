@@ -27,4 +27,8 @@ export class SpecialEventsComponent implements OnInit {
     )
   }
 
+  message(){
+    alert("Course is added to cart!");
+  }
+
 }
