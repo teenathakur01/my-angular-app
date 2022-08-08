@@ -23,4 +23,7 @@ export class EventsComponent implements OnInit {
     alert("Course is added to cart!");
   }
 
+  textalert(){
+    alert("Please login to subscribe the special events! ")
+  }
 }
