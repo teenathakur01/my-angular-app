@@ -15,6 +15,7 @@ import { AuthGuard } from './auth.guard';
 import { TokenInterceptorService } from './token-interceptor.service';
 import { PipePipe } from './pipes/pipe.pipe';
 import { DetailComponent } from './detail/detail.component';
+import { OutputComponent } from './output/output.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { DetailComponent } from './detail/detail.component';
     EventsComponent,
     SpecialEventsComponent,
     PipePipe,
-    DetailComponent
+    DetailComponent,
+    OutputComponent
   ],
   imports: [
     BrowserModule,

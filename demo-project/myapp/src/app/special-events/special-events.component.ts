@@ -11,6 +11,8 @@ import { EventService } from '../event.service';
 export class SpecialEventsComponent implements OnInit {
 
   specialevents=<any>[]
+  userloggedIn = true
+
   constructor(private _eventService: EventService,
               private router: Router) { }
 
