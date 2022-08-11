@@ -1,0 +1,17 @@
+<div>
+    <h1 class="text-center">Employee List</h1>
+</div>
+<div class="row mt-5">
+    <div class="col-md-4 mb-3" *ngFor = "let employee of list">
+        <div class="card text-center">
+            <div class="card-body">
+                <p class="card-text">{{employee.name}}</p>
+                <p class="card-text">{{employee.subject}}</p>
+            </div>
+            <div class="card-footer text-danger bg-success">
+                <p class="card-text">Year's of Experience</p>
+                    {{employee.experience}}
+            </div>
+        </div>
+    </div> 
+</div>

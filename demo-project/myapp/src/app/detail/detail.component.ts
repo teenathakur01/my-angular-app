@@ -1,4 +1,5 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { fromEvent } from 'rxjs';
 
 @Component({
   selector: 'app-detail',
@@ -11,6 +12,7 @@ export class DetailComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    fromEvent(document, "click").subscribe(() => console.log('Clicked!'));
   }
 
   message(){

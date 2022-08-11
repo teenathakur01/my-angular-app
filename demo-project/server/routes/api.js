@@ -192,4 +192,61 @@ router.get('/special-events',verifyToken,(req,res) => {
   res.json(events)
 })
 
+router.get('/employee-list', (req,res) => {
+  let events = [
+    {
+      "name": "Andrew", 
+      "subject":"Angular-Component",
+      "experience":"12"
+    },
+    {
+      "name": "Brandon", 
+      "subject":"Angular-Services",
+      "experience":"14"
+    },
+    {
+      "name": "Christina",
+      "subject":"Angular-Pipes",
+      "experience":"12"
+    },
+    {
+      "name": "Elena", 
+      "subject":"Angular-Routes",
+      "experience":"15"
+    },
+    {
+      "name": "Felicia", 
+      "subject":"Angular-Binding",
+      "experience":"16"
+
+    },   
+    {
+      "name": "Jaime", 
+      "subject":"Angular-Interaction",
+      "experience":"13"
+
+    },  
+    {
+      "name": "Cersie", 
+      "subject":"Angular-Directives",
+      "experience":"15"
+
+    }, 
+    {
+      "name": "John", 
+      "subject":"Angular-Authentication",
+      "experience":"18"
+
+    },  
+    {
+      "name": "Sansa", 
+      "subject":"Angular-Material",
+      "experience":"10"
+
+    }   
+  ]
+  res.json(events)
+})
+
+
 module.exports = router

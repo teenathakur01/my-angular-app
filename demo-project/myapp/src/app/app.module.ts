@@ -16,6 +16,7 @@ import { TokenInterceptorService } from './token-interceptor.service';
 import { PipePipe } from './pipes/pipe.pipe';
 import { DetailComponent } from './detail/detail.component';
 import { OutputComponent } from './output/output.component';
+import { EmployeeListComponent } from './employee-list/employee-list.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { OutputComponent } from './output/output.component';
     SpecialEventsComponent,
     PipePipe,
     DetailComponent,
-    OutputComponent
+    OutputComponent,
+    EmployeeListComponent
   ],
   imports: [
     BrowserModule,
