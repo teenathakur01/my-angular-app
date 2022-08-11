@@ -1,5 +1,5 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
-import { fromEvent } from 'rxjs';
+import { fromEvent, scan } from 'rxjs';
 
 @Component({
   selector: 'app-detail',
@@ -12,10 +12,12 @@ export class DetailComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    fromEvent(document, "click").subscribe(() => console.log('Clicked!'));
+    fromEvent(document, "click").pipe(scan((count) => count + 1, 0))
+    .subscribe((count) => console.log(`Clicked ${count} times`));
   }
 
   message(){
     this.text.emit();
   }
 }
+
