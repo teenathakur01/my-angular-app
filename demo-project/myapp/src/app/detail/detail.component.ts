@@ -20,4 +20,3 @@ export class DetailComponent implements OnInit {
     this.text.emit();
   }
 }
-
